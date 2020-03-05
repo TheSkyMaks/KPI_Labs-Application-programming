@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_2._1._e_olymp_3966._Ярый_коллекционер_бабочек</RootNamespace>
+  </PropertyGroup>
+
+</Project>
