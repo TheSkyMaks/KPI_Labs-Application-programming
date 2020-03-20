@@ -7,27 +7,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.3. e-olymp 1342. Пери
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.2. e-olymp 1075. Умножение многочленов", "1.2. e-olymp 1075. Умножение многочленов\1.2. e-olymp 1075. Умножение многочленов.csproj", "{40C70108-355C-4759-9426-CA2DE12F113B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1. e-olymp 3966.Коллекционер бабочек", "2.1. e-olymp 3966. Ярый коллекционер бабочек\2.1. e-olymp 3966.Коллекционер бабочек.csproj", "{04ECDDA8-E38C-4C70-A89D-4592E3E60187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1. e-olymp 3966.Коллекционер бабочек", "2.1. e-olymp 3966. Ярый коллекционер бабочек\2.1. e-olymp 3966.Коллекционер бабочек.csproj", "{04ECDDA8-E38C-4C70-A89D-4592E3E60187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1. e-olymp 1080. Анаграмматическое ра", "1.1. e-olymp 1080. Анаграмматическое ра\1.1. e-olymp 1080. Анаграмматическое ра.csproj", "{FA0D2E11-D4AD-497A-AF35-CFB0AA5ACEAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1. e-olymp 1080. Анаграмматическое ра", "1.1. e-olymp 1080. Анаграмматическое ра\1.1. e-olymp 1080. Анаграмматическое ра.csproj", "{FA0D2E11-D4AD-497A-AF35-CFB0AA5ACEAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2. e-olymp 3968. Квадратный корень", "2.2. e-olymp 3968. Квадратный корень\2.2. e-olymp 3968. Квадратный корень.csproj", "{D78A7F7E-36B0-4F8D-9993-EEA7D9A9780F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2. e-olymp 3968. Квадратный корень", "2.2. e-olymp 3968. Квадратный корень\2.2. e-olymp 3968. Квадратный корень.csproj", "{D78A7F7E-36B0-4F8D-9993-EEA7D9A9780F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3. e-olymp 3970. Мутанты", "2.3. e-olymp 3970. Мутанты\2.3. e-olymp 3970. Мутанты.csproj", "{2CC970EE-B9AB-4D5B-B30D-72E1163687C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.3. e-olymp 3970. Мутанты", "2.3. e-olymp 3970. Мутанты\2.3. e-olymp 3970. Мутанты.csproj", "{2CC970EE-B9AB-4D5B-B30D-72E1163687C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.4. e-olymp 1541. Сумма степеней", "3.3. e-olymp 1541. Сумма степеней\3.4. e-olymp 1541. Сумма степеней.csproj", "{9C613C95-0D18-4FED-980E-30EA68560BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.4. e-olymp 1541. Сумма степеней", "3.3. e-olymp 1541. Сумма степеней\3.4. e-olymp 1541. Сумма степеней.csproj", "{9C613C95-0D18-4FED-980E-30EA68560BF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.4. e-olymp 4081. Частые значения - 2", "4.3. e-olymp 4081. Частые значения - 2\4.4. e-olymp 4081. Частые значения - 2.csproj", "{ED62A474-DED9-45FE-A213-7D44B12D523E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.4. e-olymp 4081. Частые значения - 2", "4.3. e-olymp 4081. Частые значения - 2\4.4. e-olymp 4081. Частые значения - 2.csproj", "{ED62A474-DED9-45FE-A213-7D44B12D523E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.3. e-olymp 1518. Разбиение треугольника", "3.3. e-olymp 1518. Разбиение треугольника\3.3. e-olymp 1518. Разбиение треугольника.csproj", "{5A00CC8F-7927-41A4-BAB5-E9EB4ADD5591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.3. e-olymp 1518. Разбиение треугольника", "3.3. e-olymp 1518. Разбиение треугольника\3.3. e-olymp 1518. Разбиение треугольника.csproj", "{5A00CC8F-7927-41A4-BAB5-E9EB4ADD5591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.3. e-olymp 1980. Юстас-Алексу", "4.3. e-olymp 1980. Юстас-Алексу\4.3. e-olymp 1980. Юстас-Алексу.csproj", "{32CB035B-E8C5-41D5-9F3B-1270DEB3DB1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.3. e-olymp 1980. Юстас-Алексу", "4.3. e-olymp 1980. Юстас-Алексу\4.3. e-olymp 1980. Юстас-Алексу.csproj", "{32CB035B-E8C5-41D5-9F3B-1270DEB3DB1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3. e-olymp 1534. Делимость", "5.3. e-olymp 1534. Делимость\5.3. e-olymp 1534. Делимость.csproj", "{90A88BD8-F405-4278-A1B4-85DF5AC5239B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.3. e-olymp 1534. Делимость", "5.3. e-olymp 1534. Делимость\5.3. e-olymp 1534. Делимость.csproj", "{90A88BD8-F405-4278-A1B4-85DF5AC5239B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.3. e-olymp 1505. Пересечение отрезков", "6.3. e-olymp 1505. Пересечение отрезков - 2\6.3. e-olymp 1505. Пересечение отрезков.csproj", "{88DC4965-ED3E-47B2-BC7E-F86B17FA25B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.3. e-olymp 1505. Пересечение отр", "6.3. e-olymp 1505. Пересечение отрезков - 2\6.3. e-olymp 1505. Пересечение отр.csproj", "{88DC4965-ED3E-47B2-BC7E-F86B17FA25B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3. e-olymp 2907. Можете ответить7", "7.3. e-olymp 2907. Можете ответить7\7.3. e-olymp 2907. Можете ответить7.csproj", "{4156A9A2-7CCE-44EF-A97D-EA6EBDDE8CFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.3. e-olymp 2907. Можете ответить7", "7.3. e-olymp 2907. Можете ответить7\7.3. e-olymp 2907. Можете ответить7.csproj", "{4156A9A2-7CCE-44EF-A97D-EA6EBDDE8CFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
