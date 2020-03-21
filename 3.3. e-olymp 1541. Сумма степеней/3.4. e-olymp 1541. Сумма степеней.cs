@@ -2,9 +2,9 @@
 
 namespace _3._3._e_olymp_1541._Сумма_степеней
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             Console.WriteLine("Hello World!");
         }

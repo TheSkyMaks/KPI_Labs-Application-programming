@@ -2,9 +2,9 @@
 
 namespace _2._2._e_olymp_3968._Квадратный_корень
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             Console.WriteLine("Hello World!");
         }

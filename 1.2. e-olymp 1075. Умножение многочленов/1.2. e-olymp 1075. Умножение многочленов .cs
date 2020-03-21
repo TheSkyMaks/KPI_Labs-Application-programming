@@ -2,34 +2,35 @@
 
 namespace Labs // by TheSkyMaks
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             string mnogochlen1 = Console.ReadLine();
             FunctionKoef(mnogochlen1);
             string mnogochlen2 = Console.ReadLine();
             FunctionKoef(mnogochlen2);
         }
-        static string[,] FunctionKoef(string mnogochlen)
+
+        private static string[,] FunctionKoef(string mnogochlen)
         {
-            string[,] Koefs = new string[10,2]; 
+            string[,] Koefs = new string[10, 2];
             int Koefs_index = 0, Koefs_index2 = 0;
             for (int i = 0; i < mnogochlen.Length; i++)
             {
                 if (mnogochlen[i] == '+' || mnogochlen[i] == '-')
                 {
-                    Koefs[Koefs_index,0] += mnogochlen[i];
-                    for (i = i + 1; i < mnogochlen.Length; i++)
+                    Koefs[Koefs_index, 0] += mnogochlen[i];
+                    for (i += 1; i < mnogochlen.Length; i++)
                     {
                         if (mnogochlen[i] != 'x')
                         {
-                            if (mnogochlen[i + 1] == '^') 
+                            if (mnogochlen[i + 1] == '^')
                             {
-                                for (i = i + 1; i < mnogochlen.Length; i++)
+                                for (i += 1; i < mnogochlen.Length; i++)
                                 {
-                                    if(mnogochlen[i] != '+' || mnogochlen[i] != '-')
-                                    Koefs[Koefs_index2, 1] += mnogochlen[i];                                    
+                                    if (mnogochlen[i] != '+' || mnogochlen[i] != '-')
+                                        Koefs[Koefs_index2, 1] += mnogochlen[i];
                                 }
                                 Koefs_index2++;
                             }
@@ -41,9 +42,9 @@ namespace Labs // by TheSkyMaks
                         else
                         {
                             Koefs[Koefs_index, 0] += "x";
-                            if (mnogochlen[i + 1] == '^') 
+                            if (mnogochlen[i + 1] == '^')
                             {
-                                for (i = i + 1; i < mnogochlen.Length; i++)
+                                for (i += 1; i < mnogochlen.Length; i++)
                                 {
                                     if (mnogochlen[i] != '+' || mnogochlen[i] != '-')
                                         Koefs[Koefs_index2, 1] += mnogochlen[i];
@@ -60,7 +61,7 @@ namespace Labs // by TheSkyMaks
                     Koefs[Koefs_index, 0] += "1";
                     if (mnogochlen[i + 1] == '^')
                     {
-                        for (i = i + 1; i < mnogochlen.Length; i++)
+                        for (i += 1; i < mnogochlen.Length; i++)
                         {
                             if (mnogochlen[i] != '+' || mnogochlen[i] != '-')
                                 Koefs[Koefs_index2, 1] += mnogochlen[i];
@@ -74,11 +75,11 @@ namespace Labs // by TheSkyMaks
                     string str = "" + mnogochlen[i];
                     if (int.TryParse(str, out _))
                     {
-                        Koefs[Koefs_index,0] += mnogochlen[i];
+                        Koefs[Koefs_index, 0] += mnogochlen[i];
                     }
                 }
             }
-            
+
             try
             {
                 Console.WriteLine();
@@ -92,11 +93,13 @@ namespace Labs // by TheSkyMaks
                     Console.WriteLine(Koefs[i, 1]);
                 }
             }
+#pragma warning disable CA1031 // Do not catch general exception types
             catch
             {
                 Console.WriteLine("debil");
             }
-            
+#pragma warning restore CA1031 // Do not catch general exception types
+
             return Koefs;
         }
     }
@@ -127,7 +130,7 @@ namespace Labs // by TheSkyMaks
                             {
                                 a += mnogochlen[j];
                             }
-                            else 
+                            else
                             {
                                 a = "1";
                                 a += mnogochlen[j];
@@ -161,7 +164,7 @@ namespace Labs // by TheSkyMaks
                     {
                         if (mnogochlen[i + 1] != '^')
                         {
-                            b = "1";                            
+                            b = "1";
                         }
                         else
                         {
@@ -185,7 +188,6 @@ namespace Labs // by TheSkyMaks
             for (int i = 0; i < arr.Length; i++)
             {
                 str += arr[i];
-
             }
             return str;
      */

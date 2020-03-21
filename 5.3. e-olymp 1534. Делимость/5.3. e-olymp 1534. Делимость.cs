@@ -1,21 +1,22 @@
 ﻿/* Делимость
-Имеется набор целых чисел a1, a2, ..., an. Найти количество чисел от l до r включительно, 
+Имеется набор целых чисел a1, a2, ..., an. Найти количество чисел от l до r включительно,
 которые делятся хотя бы на одно число из этого набора.
 Входные данные:
-Состоит из нескольких тестов. Первая строка каждого теста содержит два целых числа l (1 ≤ l ≤ 109) и r (1 ≤ r ≤ 109). 
-Следующая строка содержит количество элементов n (1 ≤ n ≤ 18) в наборе и сам набор этих чисел. 
+Состоит из нескольких тестов. Первая строка каждого теста содержит два целых числа l (1 ≤ l ≤ 109) и r (1 ≤ r ≤ 109).
+Следующая строка содержит количество элементов n (1 ≤ n ≤ 18) в наборе и сам набор этих чисел.
 Каждое число в наборе принимает значение от 1 до 109.
 Выходные данные:
-Для каждого теста в отдельной строке вывести количество чисел от l до r включительно, 
+Для каждого теста в отдельной строке вывести количество чисел от l до r включительно,
 которые делятся хотя бы на одно из чисел из набора a1, a2, ..., an.
  */
+
 using System;
 
 namespace _5._3._e_olymp_1534._Делимость //by TheSkyMaks
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             while (true)
             {
@@ -36,6 +37,7 @@ namespace _5._3._e_olymp_1534._Делимость //by TheSkyMaks
                 Console.WriteLine(result);
             }
         }
+
         private static long TheGreatestCommonDivisor(long a, int b)
         {
             if (b == 0)
@@ -44,6 +46,7 @@ namespace _5._3._e_olymp_1534._Делимость //by TheSkyMaks
             }
             return TheGreatestCommonDivisor(b, Convert.ToInt32(a % b));
         }
+
         private static long Algorithm(int chyslo, int[] divide, int amountOfDivisor)
         {
             long GCD, result = 0;
@@ -54,8 +57,8 @@ namespace _5._3._e_olymp_1534._Делимость //by TheSkyMaks
                 for (int j = 0; j < amountOfDivisor; ++j)
                 {//O(amountOfDivisor)
                     if ((i & (1 << j)) != 0)
-                    {// checks if the j - th bit of counter is set. In more detail, 1 << j uses shifting of 1 to generate a bit mask 
-                     //in which only the j-th bit is set.The & operator then masks out the j-bit of counter; 
+                    {// checks if the j - th bit of counter is set. In more detail, 1 << j uses shifting of 1 to generate a bit mask
+                     //in which only the j-th bit is set.The & operator then masks out the j-bit of counter;
                      //if the result is not zero (which means that the j-th bit of counter was set), the condition is satisfied.
                         bits++;
                         GCD = TheGreatestCommonDivisor(theGreatestCommonFactor, divide[j]);

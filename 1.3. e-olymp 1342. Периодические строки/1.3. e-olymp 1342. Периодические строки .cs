@@ -2,9 +2,9 @@
 
 namespace Labs // by TheSkyMaks
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             int period, str_count = Convert.ToInt32(Console.ReadLine());
             bool ok;
@@ -14,7 +14,7 @@ namespace Labs // by TheSkyMaks
                 str[i] = Console.ReadLine();
             }
             for (int n = 0; n < str_count; ++n)
-            { 
+            {
                 period = str[n].Length;
                 for (int i = 1; i <= str[n].Length; ++i)
                 {
